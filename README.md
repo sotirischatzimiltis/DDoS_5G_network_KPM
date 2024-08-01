@@ -11,6 +11,7 @@ The dataset can be downloaded from here: [NCSRD-DS-5GDDoS](https://zenodo.org/re
 ### Data Pre-processing
 1. UE data analysis and feature selection can be found [here](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/ue_data_feature_selection.ipynb)
 2. Cell data analysis and feature selection can be found [here](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/cell_level_feature_selection.ipynb)
+3. Script to merge the UE and Cell data can be found [here](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/merge_dataset.ipynb)
 1. Download and execute [feature selection script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/data_feature_selection_script.py)
 2. Download and execute [time period extraction script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/time_period_extraction_script.py)
    
