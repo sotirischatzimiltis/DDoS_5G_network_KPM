@@ -9,13 +9,12 @@ As 5G networks evolve, detecting Distributed Denial of Service (DDoS) attacks re
 The dataset can be downloaded from here: [NCSRD-DS-5GDDoS](https://zenodo.org/records/10671494)
 
 ### Data Pre-processing
-1. UE data analysis and feature selection can be found [here](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/ue_data_feature_selection.ipynb)
-2. Cell data analysis and feature selection can be found [here](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/cell_level_feature_selection.ipynb)
-3. Script to merge the UE and Cell data can be found [here](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/merge_dataset.ipynb)
-1. Download and execute [feature selection script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/data_feature_selection_script.py)
-2. Download and execute [time period extraction script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/time_period_extraction_script.py)
+1. UE feature selection [script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/ue_data_feature_selection.ipynb)
+2. Cell feature selection [script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/cell_level_feature_selection.ipynb)
+3. Merge UE and Cell data [script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/merge_dataset.ipynb)
    
 ### ML training
+1. GridSearch for traditional ml models [script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/gridsearch_cv.ipynb)
 1. Download and execute [supervised ml training script](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/supervised_learning_approach.py)
 2. For LSTM training you can download the following script [lstm](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/lstm.ipynb)
    > Note: [auxiliary.py](https://github.com/sotirischatzimiltis/DDoS_5G_network_KPM/blob/main/Scripts/auxiliary.py) script should be downloaded. Responsible to form the training and inference sequences
